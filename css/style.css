@@ -10,7 +10,7 @@ Dark green: #28b485
 /*==================== GOOGLE FONTS ====================*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
-/*==================== VARIABLES CSS ====================*/
+/*==================== VARIABLES CSS ===================-=*/
 :root {
      --header-height: 95vh ;
      --colorTEST: hsl(223, 65%, 48%);
