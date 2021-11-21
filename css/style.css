@@ -18,7 +18,7 @@ Dark green: #28b485
      --firDDDst-color: hsl(var(--hue-color), 53%, 33%);
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color:881 ; /*NavyBlue 223 - Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color:240 ; /*NavyBlue 223 - Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 53%, 33%);
@@ -131,5 +131,56 @@ header {
     background-size: cover;
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100% );
+    position: relative;
+
+}
+
+
+.logo-box{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.logo{
+    height: 85px;
+
+}
+
+.heading-primary {
+
+    color: #FFF;
+    text-transform: uppercase;
+
+}
+
+.heading-primary-main {
+
+    display: block;
+    font-size: 60px ;
+    font-weight: 400;
+    letter-spacing: 35px;
+
+}
+
+
+.heading-primary-sub {
+
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 17.5px;
+
+
+}
+
+
+.text-box{
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 
 }
