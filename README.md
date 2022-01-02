@@ -1,7 +1,7 @@
 # 🚩TravelToursRD
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
-This is the development of a Website whose main objective will be to make known which are the tourist destinations and tours that you can find throughout the Dominican Republic.
+This is the development of a minimal Website whose main objective will be to make known which are the tourist destinations and tours that you can find throughout the Dominican Republic.
 
 ![Imagen inicial del website ](https://github.com/luisalbertmschz/TravelToursRD/blob/%F0%9F%9A%A7-Development-LAMS/img/ShowCaseNo1.jpg)
 
