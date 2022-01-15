@@ -6,16 +6,17 @@
    
    /*NavyBlue 223 - Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
-   $hue-color:240;
+   $hue-color:335;
    $header-height:95vh;
+
    /* HSL color mode */
-   $first-color: hsl($hue-color, 53%, 33%);
+
+   $first-color:hsl($hue-color, 53%, 33%);
    $first-color-gradient: hsla($hue-color, 53%, 33%, 0.7);
    $first-color-second: hsl($hue-color, 63%, 33%);
    $first-color-alt: hsl($hue-color, 85%, 19%);
    $first-color-lighter: hsl($hue-color, 59%, 59%);
    $first-color-lighter-gradient: hsla($hue-color, 59%, 59%, 0.7);
-
 
 
    $title-color: hsl($hue-color, 8%, 15%);
@@ -26,6 +27,11 @@
    $container-color: #FFF;
    $scroll-bar-color: hsl($hue-color, 12%, 90%);
    $scroll-thumb-color: hsl($hue-color, 12%, 80%);
+
+   $color-grey-dark-1:#F7F7F7;
+   $color-black: #000000;
+   $white-color: #FFF;
+
 
 
 
@@ -43,12 +49,15 @@
     $small-font-size: .813rem;
     $smaller-font-size: .75rem;
 
-
+   // FONT
+   $default-font-size: 1.6rem;
 
    /*========== Font weight ==========*/
    $font-medium: 500;
    $font-mmmmmedium: 500;
    $font-semi-bold: 600;
+
+
 
 
 
@@ -73,4 +82,8 @@
    $z-modal: 1000;
 
 
-
+  /*========== Grid System Variables ==========*/
+   $grid-width: 114rem;
+   $gutter-vertical: 8rem;
+   $gutter-vertical-small: 6rem;
+   $gutter-horizontal: 6rem;

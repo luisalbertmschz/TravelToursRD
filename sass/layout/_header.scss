@@ -1,0 +1,65 @@
+
+header {
+    height:$header-height;
+    // background-image: linear-gradient(
+    //     to right Bottom,
+    //     $first-color-lighter-gradient,
+    //     $first-color-gradient),
+    // url(../img/austin-ban-juHayWuaaoQ-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100% );
+    position: relative;
+
+
+}
+
+.header__logo-box{
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+}
+
+.header__logo{
+    height:9.5rem;
+    
+
+}
+
+
+.header__text-box{
+    z-index: 1;
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+#videoBG {
+    position:fixed;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #videoBG { 
+        width:auto;
+        height: 100%;
+    }
+}
+@media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+    header {
+        background: url('/img/postervideoload.jpg');
+        background-size: cover;
+    }
+}
