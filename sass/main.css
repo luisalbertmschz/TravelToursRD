@@ -30,7 +30,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
 */
 /*==================== VARIABLES CSS ===================-=*/
 /*========== Colors ==========*/
-/* Change favorite color */
+/* Change favorite color H*/
 /*NavyBlue 223 - Purple 250 - Green 142 - Blue 230 - Pink 340*/
 /* HSL color mode */
 /*========== Font and typography ==========*/
@@ -647,7 +647,6 @@ body {
 }
 
 .composition__photo:hover {
-  outline: 1rem solid #362881;
   -webkit-transform: scale(1.05) translateY(-0.5rem);
           transform: scale(1.05) translateY(-0.5rem);
   -webkit-box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
@@ -660,68 +659,13 @@ body {
           transform: scale(0.95);
 }
 
-.card-container {
-  position: relative;
-  width: 65vmin;
-  height: 80vmin;
-}
-
-.card {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #f50000;
-  border-radius: 2px;
-  -webkit-box-shadow: 2px 2px 5px rgba(17, 17, 17, 0.35);
-          box-shadow: 2px 2px 5px rgba(17, 17, 17, 0.35);
-  -webkit-transition: -webkit-transform .35s ease-out;
-  transition: -webkit-transform .35s ease-out;
-  transition: transform .35s ease-out;
-  transition: transform .35s ease-out, -webkit-transform .35s ease-out;
-  -webkit-transform: translate(var(--x), var(--y)) scale(0.35) rotate(var(--angle));
-          transform: translate(var(--x), var(--y)) scale(0.35) rotate(var(--angle));
-  will-change: transform;
-}
-
-.card:hover {
-  -webkit-transform: scale(1) rotate(0deg);
-          transform: scale(1) rotate(0deg);
-  z-index: 1;
-}
-
-.card:hover:before {
-  opacity: 1;
-}
-
-.card:before {
-  content: "";
-  display: block;
-  width: 90%;
-  height: 80%;
-  margin: 5%;
-  background: var(--image) center center no-repeat;
-  background-size: cover;
-  -webkit-box-shadow: inset 0 0 5px rgba(34, 34, 34, 0.35);
-          box-shadow: inset 0 0 5px rgba(34, 34, 34, 0.35);
-  border-radius: 2px;
-  -webkit-filter: sepia(0.2) brightness(0.9) contrast(1.2);
-          filter: sepia(0.2) brightness(0.9) contrast(1.2);
-  -webkit-transition: opacity .35s ease-out;
-  transition: opacity .35s ease-out;
-  opacity: .5;
-  will-change: opacity;
-}
-
-.card:after {
-  display: block;
-  content: var(--caption);
-  font-weight: 500;
-  color: #555;
-  font-size: 3vmin;
-  opacity: .75;
+.wey {
+  font-family: 'Caveat',cursive;
+  font-size: 25px;
   text-align: center;
+  color: #2c2c2c;
+  margin-top: 22px;
+  z-index: 6;
 }
 
 .section-about {
