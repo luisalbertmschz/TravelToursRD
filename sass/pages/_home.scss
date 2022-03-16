@@ -5,3 +5,20 @@
     margin-top: -20vh;
 
 }
+
+
+.section-features{
+    padding: 20rem 0;
+    background-image: linear-gradient(
+         to right Bottom,
+         $first-color-lighter-gradient,
+         $first-color-gradient),
+     url(../img/iTravel-01-IslandViews.jpg);
+     background-size: cover;
+     transform: skewY(-7deg);
+     margin-top: -10rem;
+
+     & > * {
+         transform: skewY( 7deg);
+     }
+}
