@@ -79,7 +79,7 @@
 // }
 
 
-.card{
+.cards{
     width: 200px;
     height: 230px;
     display: inline-block;
@@ -111,7 +111,7 @@
     background-image: linear-gradient(rgba(0, 0, 0,0.4), rgba(0, 0, 0,0.1)),url(./../img/EagleBay.jpg);
 }
 
-.card:hover{
+.cards:hover{
     transform: translateY(-10px);}
 
 
@@ -126,14 +126,14 @@
     flex-basis: 50%;
 }
 
-.card h5{
+.cards h5{
     color: white;
     font-size: 15px;
     text-shadow: 0 0 5px #999;
 
 }
 
-.card p{
+.cards p{
     text-shadow: 0 0 5px #999;
     font-size: 10px;
     color: white;
