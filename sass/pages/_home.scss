@@ -1,5 +1,6 @@
 
 .section-about{
+
     background-color:$color-grey-dark-1;
     padding: 25rem 0;
     margin-top: -20vh;
@@ -8,6 +9,7 @@
 
 
 .section-features{
+
     padding: 20rem 0;
     background-image: linear-gradient(
          to right Bottom,
@@ -21,4 +23,16 @@
      & > * {
          transform: skewY( 7deg);
      }
+}
+
+
+
+.section-tours{
+
+    background-color:$color-grey-dark-1;
+    padding: 25rem 0 50rem 0;
+    margin-top: -10rem;
+
+
+
 }
