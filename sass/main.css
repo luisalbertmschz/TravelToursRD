@@ -180,6 +180,14 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.u-margin-top-big {
+  margin-top: 8rem;
+}
+
+.u-margin-top-huge {
+  margin-top: 10rem;
+}
+
 .row {
   max-width: 114rem;
   margin: 0 auto;
@@ -427,6 +435,12 @@ body {
   /* color: #777; */
 }
 
+.btn--green {
+  background-color: #55c57a;
+  color: #FFF;
+  /* color: #777; */
+}
+
 .btn::after {
   content: "";
   display: inline-block;
@@ -443,6 +457,10 @@ body {
 
 .btn--white::after {
   background-color: #FFF;
+}
+
+.btn--green::after {
+  background-color: #55c57a;
 }
 
 .btn:hover::after {
@@ -547,72 +565,6 @@ body {
 }
 
 /* CSS */
-.button-30 {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  background-color: #FCFCFD;
-  border-radius: 4px;
-  border-width: 0;
-  -webkit-box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-          box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  color: #36395A;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  font-family: "Lato",monospace;
-  height: 48px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  line-height: 1;
-  list-style: none;
-  overflow: hidden;
-  padding-left: 16px;
-  padding-right: 16px;
-  position: relative;
-  text-align: left;
-  text-decoration: none;
-  -webkit-transition: -webkit-box-shadow .15s,-webkit-transform .15s;
-  transition: -webkit-box-shadow .15s,-webkit-transform .15s;
-  transition: box-shadow .15s,transform .15s;
-  transition: box-shadow .15s,transform .15s,-webkit-box-shadow .15s,-webkit-transform .15s;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
-  -webkit-user-select: none;
-  -ms-touch-action: manipulation;
-      touch-action: manipulation;
-  white-space: nowrap;
-  will-change: box-shadow,transform;
-  font-size: 18px;
-}
-
-.button-30:focus {
-  -webkit-box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-          box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-}
-
-.button-30:hover {
-  -webkit-box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-          box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
-}
-
-.button-30:active {
-  -webkit-box-shadow: #D6D6E7 0 3px 7px inset;
-          box-shadow: #D6D6E7 0 3px 7px inset;
-  -webkit-transform: translateY(2px);
-          transform: translateY(2px);
-}
-
 .composition {
   position: relative;
 }
@@ -797,6 +749,16 @@ body {
   background-image: linear-gradient(to right bottom, #FFB900, #FF7730);
 }
 
+.card__side--back-2 {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#2998FF), to(#5643FA));
+  background-image: linear-gradient(to right bottom, #2998FF, #5643FA);
+}
+
+.card__side--back-3 {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#29ffb4), to(#11d151));
+  background-image: linear-gradient(to right bottom, #29ffb4, #11d151);
+}
+
 .card:hover .card__side--front {
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
@@ -812,23 +774,23 @@ body {
   height: 23rem;
   background-blend-mode: screen;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 .card__picture--1 {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#FFB900), to(#FF7730)), url(../img/nat-5.jpg);
-  background-image: linear-gradient(to right bottom, #FFB900, #FF7730), url(../img/nat-5.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#FFB900), to(#FF7730)), url(../img/SAONAISLAND.jpg);
+  background-image: linear-gradient(to right bottom, #FFB900, #FF7730), url(../img/SAONAISLAND.jpg);
 }
 
 .card__picture--2 {
-  background-image: url(../img/ballenas_samana.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#2998FF), to(#5643FA)), url(../img/nat-3.jpg);
+  background-image: linear-gradient(to right bottom, #2998FF, #5643FA), url(../img/nat-3.jpg);
 }
 
 .card__picture--3 {
-  background-image: url(../img/ballenas_samana.jpg);
-}
-
-.card__picture--4 {
-  background-image: url(../img/ballenas_samana.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#29ffb4), to(#11d151)), url(../img/PUERTOPLATA.jpg);
+  background-image: linear-gradient(to right bottom, #29ffb4, #11d151), url(../img/PUERTOPLATA.jpg);
 }
 
 .card__heading {
@@ -854,6 +816,16 @@ body {
   background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85));
 }
 
+.card__heading-span--2 {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(41, 152, 255, 0.85)), to(rgba(86, 67, 250, 0.85)));
+  background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85));
+}
+
+.card__heading-span--3 {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(41, 255, 180, 0.85)), to(rgba(17, 209, 81, 0.85)));
+  background-image: linear-gradient(to right bottom, rgba(41, 255, 180, 0.85), rgba(17, 209, 81, 0.85));
+}
+
 .card__details {
   color: #6a717c;
   padding: 3rem;
@@ -873,6 +845,32 @@ body {
 
 .card__details ul li:not(:last-child) {
   border-bottom: 1px solid #EEEE;
+}
+
+.card__cta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 90%;
+  text-align: center;
+}
+
+.card__price-box {
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 8rem;
+}
+
+.card__price-only {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.card__price-value {
+  font-size: 6rem;
+  font-weight: 100;
 }
 
 .section-about {
@@ -898,7 +896,7 @@ body {
 
 .section-tours {
   background-color: #F7F7F7;
-  padding: 25rem 0 50rem 0;
+  padding: 25rem 0 15rem 0;
   margin-top: -10rem;
 }
 /*# sourceMappingURL=main.css.map */
